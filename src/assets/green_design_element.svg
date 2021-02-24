@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="293px" height="291px" viewBox="0 0 293 291" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 12</title>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Service-(bathroom)" transform="translate(-102.000000, -1377.000000)">
+            <g id="Group-12" transform="translate(104.000000, 1378.000000)">
+                <path d="M289,288 L0,1 L289,288 Z" id="Fill-1"></path>
+                <line x1="0" y1="1" x2="289" y2="288" id="Stroke-2" stroke="#98CA9A" stroke-width="3"></line>
+                <path d="M0,288 L289,1 L0,288 Z" id="Fill-4"></path>
+                <g id="Group-11" stroke="#98CA9A" stroke-width="3">
+                    <line x1="288.165446" y1="0.833453161" x2="0.720392068" y2="288.015989" id="Stroke-5"></line>
+                    <polygon id="Stroke-7" points="285.13979 144.424721 144.444082 284.995809 3.74061856 144.424721 144.444082 3.8536335"></polygon>
+                    <polygon id="Stroke-9" points="0.719616458 288.015989 288.16467 288.015989 288.16467 0.833453161 0.719616458 0.833453161"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

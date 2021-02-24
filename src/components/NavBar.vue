@@ -1,33 +1,52 @@
 <template>
-  <div class="main text-center">
-    <div class="row align-items-center nav-bar">
-      <div class="col-5">
-        <img src="../assets/logo.svg" alt="" class="logo" />
+<div class="fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center align-items-center main">
+    <div class="container-fluid">
+      <div class="navbar-brand logo">
+        <img src="../assets/logo.svg" alt="logo" />
       </div>
-      <div class="col-5">
-        <div class="fs-5 links d-inline-block ">
-          <a href="#">Home</a>
-          <a href="#">Our Work</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-        </div>
-      </div>
-      <div class="col-2">
-        <div class="fs-5 fw-bold text-decoration-underline">
-          <a href="" class="phone me-5">555-555-5555</a>
-        </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav nav-links d-flex justify-content-end">
+          <li class="nav-item">
+            <router-link to="/">Home</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/ourwork">Our Work</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/about">About</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/contact">Contact</router-link>
+          </li>
+          <li class="nav-item phone">
+            <span href="" class="phone-number">555-555-5555</span>
+          </li>
+        </ul>
+  
       </div>
     </div>
-    <div class="row works align-items-center">
-      <div class="col-12">
-        <a href="">Kitchen</a>
-        <a href="">Bathroom</a>
-        <a href="">Outdoors</a>
-        <a href="">Balcony</a>
-        <a href="">New! Home Office</a>
-      </div>
-    </div>
+  </nav>
+  <div class="secondary-nav d-none d-lg-flex justify-content-center align-items-center">
+    <router-link to="/kitchen">Kitchen</router-link>
+    <router-link to="/bathroom">Bathroom</router-link>
+    <router-link to="/outdoors">Outdoors</router-link>
+    <router-link to="/balcony">Balcony</router-link>
+    <router-link to="/homeoffice">New! Home Ofiice</router-link>
   </div>
+</div>
+  
 </template>
 
 <script>
@@ -37,40 +56,50 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
+@import "../styles/variables.scss";
+
 .main {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  /* font-family: 'Roboto Slab', serif;
-  letter-spacing: 0.03em; */
+  font-size: 17px;
 }
-.nav-bar {
-  height: 110px;
+
+.logo img {
+  height: 64px;
 }
-.logo{
-  padding-right: 100px;
+.nav-links {
+  text-align: end;
+  padding-right: 20px;
+  flex-grow: 2;
 }
-.links a {
+.nav-links a {
+  display: inline-block;
   color: black;
   text-decoration: none;
-  
-  font-size: 18px;
-padding-left: 30px;
-  padding-right: 30px;
+  margin: 0px 30px;
+}
+.nav-links a:hover,
+.router-link-active {
+  border-bottom: $green 2px solid;
 }
 .phone{
-  color: orange;
+  color: rgb(255, 160, 49);
+  text-decoration: underline;
+  font-weight: bold;
+  margin: 0px 30px;
+  
 }
-.works {
+.phone:hover{
+  color: $green ;
+}
+.secondary-nav {
   height: 62px;
-  background-color: black;
+  background-color: rgb(28, 28, 28);
+  font-size: 16px;
 }
-.works a {
+.secondary-nav a {
   color: white;
   text-decoration: none;
-  padding-left: 50px;
-  padding-right: 50px;
-  font-size: 18px;
+  padding: 0px 50px;
+  
 }
 </style>

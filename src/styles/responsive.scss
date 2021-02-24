@@ -1,0 +1,206 @@
+// Micro devices
+@media (min-width: 310px) { 
+    //Navbar
+    .logo {
+        padding-left: 50px;
+    }
+    // home
+    .man {
+        max-width: 100%;
+    }
+    .hero {
+        padding-top: 100px;
+    }
+    .intro h1 {
+        font-size: 35px;
+        line-height: 110%;
+    }
+    // About
+    #us h1{
+        font-size: 30px;
+    }
+    #us p{
+        font-size: 15px;
+    }
+    .image-bg-one {
+        height: 100px;
+    }
+    .people-title h1{
+        margin-top: 200px;
+    }
+    .unit-image img {
+        width: 150px;
+    }
+    .unit h3{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .procent{
+        padding: 50px 20px;
+    }
+    #testimonials{
+        padding: 10px 10px;
+    }
+    //footer
+    .contact-text h2{
+        font-size: 25px;
+    }
+    .footer-form{
+        padding: 20px 10px;
+    }
+    footer{
+        padding: 20px 5px;
+    }
+    
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    //NavBAr
+    .logo {
+        padding-left: 100px;
+    }
+    
+    // Home
+    .hero {
+        padding-top: 100px;
+    }
+    .man {
+        width: 307px;
+    }
+    .intro h1 {
+        font-size: 30px;
+        line-height: 100%;
+    }
+    // About
+    .image-bg-one {
+        height: 200px;
+    }
+    .image-bg-two{
+        height: 200px;
+    }
+    .people-title h1{
+        margin-top: 200px;
+    }
+    .unit-image img {
+        width: 200px;
+    }
+    .unit h3{
+        font-size: 20px;
+    }
+    // Footer
+    .contact-text h2{
+        font-size: 30px;
+    }
+    .footer-form{
+        padding: 60px 10px;
+    }
+    footer{
+        padding: 90px 20px;
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    // Home
+    .man {
+        width: 407px;
+    }
+    .intro h1 {
+        font-size: 53px;
+    
+        line-height: 140%;
+    }
+    // About
+    #us h1{
+        font-size: 50px;
+    }
+    #us p{
+        font-size: 20px;
+    }
+    .image-bg-two{
+        height: 300px;
+    }
+    .people-title h1{
+        margin-top: 0px;
+    }
+    .unit-image img {
+        width: 260px;
+    }
+    .procent{
+        padding: 150px 50px;
+    }
+    #testimonials{
+        padding: 10px 0px;
+    }
+    // Footer
+    .footer-form{
+        padding: 60px 10px;
+        max-width: 95%;
+    }
+    .contact-text h2{
+        font-size: 50px;
+    }
+    
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+    // Home
+    .hero {
+        padding-top: 150px;
+    }
+    .man {
+        width: 507px;
+    }
+    
+    // About
+    .image-bg-one {
+        height: 250px;
+    }
+    #testimonials{
+        padding: 80px 0px;
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    // Navbar
+    .main a{
+        font-size: 19px;
+        margin: 0px 20px;
+    }
+    .phone{
+        font-size: 19px;
+        margin: 0px 20px;
+    }
+    .secondary-nav a {
+        font-size: 19px;
+    }
+    // home
+    .hero {
+        padding-top: 150px;
+      }
+    .man {
+        width: 607px;
+    }
+    // About
+    #us {
+        padding-top: 250px;
+    }
+    .image-bg-one {
+        height: 300px;
+    }
+    #testimonials{
+        padding: 100px 70px;
+    }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { 
+
+}
+
+.bg-dark{
+    background-color: #222222!important;
+}
