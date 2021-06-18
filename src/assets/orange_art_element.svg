@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="204px" height="202px" viewBox="0 0 204 202" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>orange_art_element</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.627451 0 0 0 0 0.192157 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="orange_art_element" transform="translate(-139.000000, -1269.000000)" filter="url(#filter-1)">
+            <g transform="translate(141.000000, 1270.000000)">
+                <path d="M200,199 L-2.27373675e-13,1 L200,199 Z" id="Fill-1"></path>
+                <line x1="-2.27373675e-13" y1="1" x2="200" y2="199" id="Stroke-2" stroke="#94C896" stroke-width="3"></line>
+                <path d="M-2.27373675e-13,199 L200,1 L-2.27373675e-13,199 Z" id="Fill-4"></path>
+                <g id="Group-11" transform="translate(-0.000000, -0.000000)" stroke="#94C896" stroke-width="3">
+                    <line x1="199.422454" y1="0.576784194" x2="0.498541224" y2="199.319023" id="Stroke-5"></line>
+                    <polygon id="Stroke-7" points="197.328574 99.9479038 99.9613027 197.228933 2.58866336 99.9479038 99.9613027 2.66687439"></polygon>
+                    <polygon id="Stroke-9" points="0.498004469 199.319023 199.421917 199.319023 199.421917 0.576784194 0.498004469 0.576784194"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

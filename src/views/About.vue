@@ -154,7 +154,6 @@ export default {
 }
 
 .unit-image img {
-  /* width: 280px; */
   transition: transform 0.3s ease;
 }
 .unit-image img:hover {
@@ -162,7 +161,6 @@ export default {
 }
 .unit {
   text-align: center;
-  /* font-size: 20px; */
 }
 .unit-image {
   overflow: hidden;

@@ -1,8 +1,10 @@
 <template>
-  <section id="hero">
+  <section id="hero-room">
     <div class="container-fluid">
-      <div class="row ">
-        <div class="col-5 col-xl-4 bg-dark text-light hero-text">
+      <div class="row">
+        <div
+          class="col-sm-12 col-md-5 col-xl-4 bg-dark text-light hero-text pb-3 pb-md-0"
+        >
           <h1>
             {{ title }}
           </h1>
@@ -11,12 +13,14 @@
           </p>
           <FancyButton
             :label="'See our work'"
-            :target="ctaTarget"
-            type="anchor"
+            :target="'OurWork'"
+            type="link"
           />
         </div>
         <div class="col-1 col-xl-2 d-none d-lg-block bg-dark"></div>
-        <div class="col-6 col-xl-6 hero-images-wrap position-relative">
+        <div
+          class="col-sm-12 col-md-6 col-xl-6 hero-images-wrap position-relative"
+        >
           <div class="row">
             <div class="col-5 d-flex align-self-end pe-5">
               <img :src="`/img/${images[0]}`" class="img-fluid" />
@@ -41,8 +45,8 @@ import FancyButton from "../components/FancyButton.vue";
 export default {
   props: {
     ctaTarget: {
-        type: String,
-        required: true,
+      type: String,
+      required: true,
     },
     title: {
       type: String,
@@ -65,11 +69,7 @@ export default {
 </script>
 
 <style lang="scss">
-#hero {
-  padding-top: 150px;
-}
 .hero-images-wrap {
-  // height: 700px;
   background: linear-gradient(90deg, #222222 50%, white 50%);
 }
 .hero-image-two {
@@ -80,12 +80,9 @@ export default {
     object-fit: cover;
   }
 }
-.hero-text {
-  padding: 110px 0px 20px 100px;
-}
-.hero-text h1{
-    font-size: 55px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+
+.hero-text h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 </style>

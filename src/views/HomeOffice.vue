@@ -20,7 +20,7 @@
   />
   <Testimonials 
   :testimonials="testimonialsList"/>
-  <Footer />
+  
   <Footer />
 </template>
 

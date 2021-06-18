@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="green-lines pt-5">
     <div class="container container-sm-fluid footer-form text-light ms-0">
       <div class="row justify-content-md-evenly justify-content-sm-center">
         <div class="contact-text col col-md-4 d-block">
@@ -20,7 +20,12 @@
             This site is protected by reCAPTCHA. Google's
             <span>Privacy Policy</span> and <span>Terms of Service</span> apply.
           </p>
-          <FancyButton @click="click" :label="'Send'" type="button" />
+          <FancyButton
+            @click="click"
+            :label="'Send'"
+            type="button"
+            width="280px"
+          />
         </div>
       </div>
     </div>
@@ -47,7 +52,7 @@
           <a href="#">Balcony</a>
           <a href="">New! Home Office</a>
         </div>
-        <div class="contact col-sm-2 ">
+        <div class="contact col-sm-2">
           <h4>Contact</h4>
           <a href="#">Street Name</a>
           <a href="#">Zip Code, Country</a>
@@ -123,7 +128,11 @@ export default {
 <style scoped>
 .footer-form {
   background-color: rgb(34, 34, 34);
-  
+}
+.green-lines {
+  background: url(../assets/green_diagonal_lines.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 .contact-text h2 {
   font-family: Arial, Helvetica, sans-serif;

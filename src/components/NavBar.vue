@@ -1,6 +1,6 @@
 <template>
 <div class="fixed-top">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center align-items-center main">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center align-items-center main ">
     <div class="container-fluid">
       <div class="navbar-brand logo">
         <img src="../assets/logo.svg" alt="logo" />

@@ -1,15 +1,17 @@
 <template>
   <div class="container-fluid">
-    <div class="container p-5">
-      <div class="row p-4">
-        <div class="col-6 px-5 pb-5 howitimage">
+    <div class="container p-3 p-md-5">
+      <div class="row p-md-4">
+        <div
+          class="col-sm-12 col-md-6 howitimage ps-md-3 pb-3 pe-md-4 px-lg-5 pb-lg-5 align-self-center"
+        >
           <img :src="`/img/${image}`" alt="" />
         </div>
-        <div class="col-6 ps-5">
+        <div class="col-sm-12 col-md-6 ps-md-5 pt-3 pt-md-0">
           <h2>How it works</h2>
 
           <p v-for="(text, index) in howtext" :key="`text-${index}`">
-            <span>{{ index + 1 }}</span
+            <span class="how-span">{{ index + 1 }}</span
             >{{ text }}
           </p>
         </div>
@@ -25,8 +27,8 @@ export default {
       type: String,
     },
     howtext: {
-        type: Array,
-    }
+      type: Array,
+    },
   },
 };
 </script>
@@ -38,6 +40,7 @@ export default {
   background: url(../assets/green_design_element.svg);
   background-repeat: no-repeat;
   background-position: left bottom;
+  background-size: 50%;
 }
 
 .howitimage img {
@@ -51,7 +54,6 @@ span {
   color: orange;
   font-size: 40px;
   font-weight: bold;
-  padding-right: 50px;
 }
 p {
   display: flex;

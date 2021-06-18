@@ -72,7 +72,6 @@ export default {
   background-position: right top;
 }
 .procente h3 {
-  font-size: 45px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 20px;
